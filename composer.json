@@ -1,0 +1,12 @@
+{
+    "name": "ahmadrezaei/mobinone",
+    "description": "mobin one VAS package",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Ahmad Rezaei",
+            "email": "parsarezaei53@gmail.com"
+        }
+    ],
+    "require": {}
+}
