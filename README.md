@@ -33,11 +33,12 @@ $mobin->inAppChargeConfirm(); // confirm register request by code
 $mobin->randomString() // create rando string
 ```
 
-#Examples
+Examples
+===
 
 **the are 3 example page in the package, you can use the package like this files:**
 
-```
+```php
 sample.php // for register user
 notificaion.php // for handle service notifications
 mp.php // for handle MO messages
