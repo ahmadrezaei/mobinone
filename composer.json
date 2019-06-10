@@ -1,7 +1,7 @@
 {
     "name": "ahmadrezaei/mobinone",
     "description": "mobin one VAS package",
-    "license": "UNLICENSED",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ahmad Rezaei",
