@@ -8,5 +8,10 @@
             "email": "parsarezaei53@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ahmadrezaei\\mobinone\\": "src"
+        }
+    }
 }
