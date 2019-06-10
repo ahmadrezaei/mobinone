@@ -10,6 +10,11 @@ http://sabz98.com';
 // handle get request
 if (isset($_GET['msisdn']) && isset($_GET['shortcode']) && isset($_GET['chargecode']))
 {
+    // TODO change unsubscribe code
+    if( $_GET['chargecode'] == 'Unsubscribe!!!' ) {
+        $message = 'مشترک گرامی شما با موفقیت سرویس سبز را لغو نمودید.برای بازگشت دوباره عدد 1 را به همین شماره ارسال فرمایید.';
+    }
+
     $sender = (substr($_GET['msisdn'], 0, 1) == '0' ? "98" . substr($_GET['msisdn'], 1) : "98" . $_GET['msisdn']);
     $shortCode = $_GET['shortcode'];
 

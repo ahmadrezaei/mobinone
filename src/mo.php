@@ -16,7 +16,7 @@ if (isset($_GET['sender']) && isset($_GET['scode'])) {
     if(isset($_GET['text']) && $_GET['text'] != '1')
     {
         try {
-            $message = 'برای عضویت کلمه 1 را ارسال کنید.';
+            $message = 'کلیدواژه ارسالی درست نیست مشترک گرامی در صورت تمایل به ثبت نام در سرویس سبز، عدد 1 را به همین شماره ارسال نمایید. هزینه عضویت روزانه پانصد تومان می باشد. جهت لغو عضویت،‌ Off یا خاموش را به همین شماره ارسال نمایید.';
             $result = $mobin->sendSMS([$sender], [$message], [''], [''], 'mt', [$mobin->randomString()]);
             if($result[0] == 'Success') {
                 echo 'SMS sent successfully.';
